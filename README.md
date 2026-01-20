@@ -1,8 +1,21 @@
-Descrição do projeto
+📋 CRUD de Usuários – PHP + JavaScript
 
-Este projeto é uma aplicação web simples para gerenciamento de usuários. O sistema permite realizar operações básicas de CRUD, possibilitando o cadastro, a listagem, a edição e a exclusão de usuários. Cada usuário possui como dados nome, e-mail e telefone.
+Aplicação web simples para gerenciamento de usuários, desenvolvida com HTML, CSS, JavaScript, PHP e jQuery.
+O sistema permite realizar as principais operações de um CRUD de forma dinâmica e organizada, sem necessidade de banco de dados.
 
-Tecnologias utilizadas
+🚀 Funcionalidades
+
+📄 Listagem de usuários
+
+➕ Cadastro de usuários
+
+✏️ Edição de usuários
+
+🗑️ Exclusão de usuários
+
+🔄 Atualização da página sem recarregar (AJAX)
+
+🛠️ Tecnologias Utilizadas
 
 HTML
 
@@ -14,48 +27,56 @@ PHP
 
 jQuery 
 
-Funcionalidades
+📁 Estrutura do Projeto
 
-Cadastro de usuários
+index.php – Página principal da aplicação
 
-Listagem de usuários
+buscar.php – Responsável pela listagem e busca de usuários
 
-Edição de usuários
+salvar.php – Responsável pelo cadastro e edição de usuários
 
-Exclusão de usuários
+excluir.php – Responsável pela exclusão de usuários
 
-Atualização dinâmica da página utilizando AJAX
+usuarios.json – Armazena os dados dos usuários
 
-Estrutura do projeto
+css/style.css – Estilização da aplicação
 
-index.php: página principal com a listagem e o formulário
+js/script.js – Lógica em JavaScript e jQuery
 
-buscar.php: responsável por buscar os usuários cadastrados
+▶️ Como Executar o Projeto
+Opção 1 – Utilizando XAMPP (Recomendado)
 
-salvar.php: responsável por cadastrar e editar usuários
+Instale o XAMPP
 
-excluir.php: responsável por excluir usuários
+Inicie o serviço Apache
 
-usuarios.json: arquivo utilizado para armazenar os dados
+Copie a pasta do projeto para o diretório htdocs
 
-css/style.css: arquivo de estilos da aplicação
+Acesse no navegador:
 
-js/script.js: arquivo JavaScript com as funcionalidades do sistema
+http://localhost/nome-da-pasta-do-projeto
 
-Como executar o projeto
-
-É necessário ter o PHP instalado ou utilizar um servidor local, como XAMPP
-
-Caso utilize XAMPP, inicie o serviço Apache
-
-Copie a pasta do projeto para o diretório “htdocs”
-
-Acesse o sistema pelo navegador utilizando o endereço http://localhost/nome-da-pasta-do-projeto
-
-Execução alternativa
+Opção 2 – Utilizando o servidor embutido do PHP
 
 Abra o terminal na pasta do projeto
 
-Execute o comando php -S localhost:8000
+Execute o comando:
 
-Acesse o sistema pelo navegador em http://localhost:8000
+php -S localhost:8000
+
+
+Acesse no navegador:
+
+http://localhost:8000
+
+⚠️ Observações Importantes
+
+O arquivo usuarios.json deve existir e ter permissão de escrita
+
+O projeto deve ser acessado via localhost
+
+Não é possível executar corretamente abrindo os arquivos PHP diretamente
+
+🎯 Objetivo
+
+Este projeto foi desenvolvido com finalidade educacional, com o objetivo de demonstrar a criação de uma aplicação web simples e funcional utilizando PHP integrado com HTML, CSS e JavaScript, além do uso de AJAX com jQuery para melhorar a experiência do usuário.
